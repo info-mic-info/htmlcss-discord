@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: dotted 1px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: dotted 1px black; */
 }
 
 header {
@@ -38,7 +39,7 @@ nav {
 }
 
 .login {
-    width: 20%;
+    width: 5%;
 }
 
 
@@ -48,7 +49,7 @@ nav {
 .row {
     width: 100%;
     display: flex;
-    justify-content: around;
+    justify-content: space-around around;
 }
 
 .txtwhite {
@@ -174,8 +175,6 @@ footer {
 }
 .col4 {
     width: 10%;
-    margin-top: 10px;r
-    margin-bottom: 20px;
 }
 
 .col5{
@@ -184,17 +183,18 @@ footer {
 
 h2{
     color: slateblue;
+    margin-bottom: 20px;
 }
 
 
 
 hr {
-    color: white;
+    color: slateblue;
 }
 
 
 .end {
-    width: 90%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -222,4 +222,9 @@ h5 {
 
 .txt-center {
     text-align: center;
+}
+
+.ita {
+    width: 30px;
+    float: left;
 }
