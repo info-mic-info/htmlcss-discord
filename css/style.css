@@ -82,7 +82,7 @@ nav {
     width: 50%;
     margin: 0 auto;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
 
 /* CONTENITORE BIANCO */
@@ -148,6 +148,7 @@ nav {
     width: 20%;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 .imgitem3 {
@@ -203,7 +204,7 @@ footer {
 }
 
 .col4 {
-    width: 150px;
+    width: 20%;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -231,6 +232,7 @@ hr {
 
 h6 {
     color: white;
+    margin: 5px 0 5px 0;
 }
 
 h5 {
@@ -240,4 +242,8 @@ h5 {
 .buttonend {
     border-radius: 20px;
     padding: 10px;
+}
+
+.txt-center{
+    text-align: center;
 }
