@@ -20,15 +20,13 @@ nav {
 
 /* CONTAINER YELLOW */
 .container-yellow {
-    /* background-color: yellow; */
     width: 100%;
     margin: 0 auto;
 
 }
 
 .logo {
-    width: 20%;
-    background-image: url(../img/logo.svg);
+    width:10%;
     background-size: cover;
 }
 
@@ -90,34 +88,26 @@ nav {
     background-color: white;
 }
 
-.row2 {
+.row {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 10px;
-
-
 }
 
-.col-blue {
-    background-image: url(../img/item1.svg);
+.img-item-1 {
     background-size: contain;
-    width: 40%;
+    width: 30%;
 }
 
-
-
-
-.padding-20px {
-    padding: 20px;
-
-}
-
-.col-pink {
+.col-item-1 {
     background-color: pink;
     width: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
+
+}
+
+.padding-20px{
+    padding: 20px;
 }
 
 /* CONTENITORE GRIGIO */
@@ -127,36 +117,12 @@ nav {
 
 }
 
-.col-item {
-    background-image: url(../img/item2.svg);
-    background-size: cover;
-    width: 30%;
-}
 
 /* CONTENITORE BIANCO 2 */
 
-.row-item-3 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 10px;
 
-}
 
-.item3 {
-    background-color: pink;
-    width: 20%;
-    margin-left: 10%;
-    margin-right: 10%;
 
-}
-
-.imgitem3 {
-    width: 25%;
-    background-image: url(../img/item3.svg);
-    background-size: cover;
-    
-}
 
 /* CONTENITORE GRIGIO QUADRATO VERDE */
 
@@ -171,7 +137,7 @@ nav {
 
 .col-verde {
     width: 60%;
-    
+
     margin: 0 auto;
 }
 
@@ -244,6 +210,6 @@ h5 {
     padding: 10px;
 }
 
-.txt-center{
+.txt-center {
     text-align: center;
 }
